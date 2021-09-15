@@ -1,0 +1,14 @@
+order by 默认升：
+ORDER BY dep.department_name DESC
+
+
+
+GROUP BY 和 ORDER BY一起使用时，order by 的列，应该出现在group by 子句中  ： dep.department_name 
+
+GROUP BY dep.department_name 
+--order by 的列，必须是出现在group by 子句里的列  
+ORDER BY dep.department_name DESC
+
+
+
+
